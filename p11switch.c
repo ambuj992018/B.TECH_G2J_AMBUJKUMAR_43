@@ -24,6 +24,7 @@ int main() {
         printf("division = %f",(float)a/b);
         else 
         printf("can't be performed");
+        break;
 
         default :
         printf("error");
