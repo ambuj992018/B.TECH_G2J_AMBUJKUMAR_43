@@ -4,7 +4,7 @@ int main(){
     printf("Enter the size :");
     scanf("%d",&n);
 
-    for(int i=0 ; i<n-1 ; i++)
+    for(int i=0 ; i<=n-1 ; i++)
     {
         printf("Enter a[%d] = ",i);
         scanf("%d",&a[i]);
